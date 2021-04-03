@@ -58,7 +58,7 @@ const open = require('open');
 
 
 
-const PORT = '3333'
+const PORT = '3030'
 app.listen(PORT, () => { 
         console.log(`Node server ON Rodando na porta ${PORT}`)
 })

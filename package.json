@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "node-dev index.js & google-chrome http://localhost:3333"
+    "start": "node-dev index.js &  sleep 2 && browser-sync start --proxy 'localhost:3030' --files ''"
   },
   "author": "",
   "license": "ISC",
